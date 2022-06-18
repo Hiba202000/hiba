@@ -48,18 +48,16 @@ body {
     width: 100%;
     height: 1080px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     overflow: hidden; 
   } 
-
-
   .home {
     background-color: #efefef;
     width: 83%; 
     height: 1080px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex: 1;
 }
@@ -81,9 +79,9 @@ body {
   display: flex;
   /* display: contents; */
   flex-direction: column;
-  gap: 100px;
-  align-items: center;
+  gap: 55px;
   padding: 99px;
+  flex: .6;
 }
  }.home-left-bottom1{
   display: flex;
@@ -94,6 +92,44 @@ body {
   display: flex;
   justify-content: center;
  }
+ .text1 {
+  display: flex;
+  font-family: 'Heebo';
+  /* font-style: normal; */
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 35px;
+  flex-direction: column;
+}
+
+.text1 h1 {
+  font-family: 'Heebo';
+  /* font-style: normal; */
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 70px;
+  /* font-weight: bold; */
+}
+
+
+.home-left-bottom-1-text {
+  width: 624px;
+  height: 204;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-left-bottom-2 {
+  display: flex;
+}
+
+.home-left-bottom-1 {
+  display: flex;
+  /* padding: 160px; */
+}
+
+
  .icons-container {
   display: flex;
 }
@@ -115,7 +151,172 @@ height: 733px;
 }
 
 .home-right-image img {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
 }
 
+.project-container {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.project {
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-top {
+  display: flex;
+  flex-direction: column;
+  width: 463px;
+  height: 127px;
+  flex: 1;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 634px;
+}
+
+.my {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 125px;
+  /* margin: 162; */
+}
+.works {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 46px;
+}
+.img1 {
+  width: 626px;
+  height: 310px;
+}
+
+.img1 img {
+  width: 100%;
+  height: 100%;
+}
+.submit-container {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.img2 {
+  width: 626px;
+  height: 310px;
+}
+
+.img2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-top {
+  display: flex;
+  flex: 1;
+}
+
+
+.petz {
+  margin-top: 14px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 35px;
+}
+.petz2 {
+  margin-top: 0;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+.submit1 {
+  width: 303px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 100%;
+}
+
+.submit2 {
+  width: 303;
+  height: 52px;
+}
+.img2 img {
+  width: 100%;
+  height: 100%;
+  margin-top: 87px;
+}
+.right-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 175px;
+}
+
+.img3 {
+  width: 626px;
+  height: 310;
+}
+
+.img3 img {
+  width: 100%;
+  height: 100%;
+}
+.petz4 {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 14px;
+}
+.petz3 {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+.submit-container2 {
+  gap: 12px;
+  width: 100%;
+  display: flex;
+}
+.submit3 {
+  width: 303px;
+  height: 52px;
+}
+
+.submit4 {
+    width: 303px;
+    height: 52px;
+}
+.img4 {
+  width: 626px;
+  height: 310px;
+}
+
+.img4 img {width: 100%;height: 100%;margin-top: 87px;}
