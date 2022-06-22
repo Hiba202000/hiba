@@ -161,6 +161,7 @@ height: 733px;
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  overflow: hidden
 }
 
 .project {
@@ -209,7 +210,7 @@ height: 733px;
   width: 100%;
   height: 100%;
 }
-.submit-container {
+sa-container {
   display: flex;
   gap: 12px;
   width: 100%;
@@ -230,11 +231,6 @@ height: 733px;
   flex-direction: column;
 }
 
-.right-top {
-  display: flex;
-  flex: 1;
-}
-
 
 .petz {
   margin-top: 14px;
@@ -252,19 +248,42 @@ height: 733px;
   font-size: 15px;
   line-height: 22px;
 }
-.submit1 {
-  width: 303px;
+.submit-container {
+  gap: 12px;
+  width: 100%;
+  display: flex;
 }
-
-input[type="submit"] {
+.submit1 input[type="submit"]{
   width: 100%;
   height: 100%;
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+
+}
+.submit1 {
+  width: 303;
+  height: 52px;
+}
+
+.submit2 input[type="submit"]{
+  width: 100%;
+  height: 100%;
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+
 }
 
 .submit2 {
   width: 303;
   height: 52px;
 }
+
 .img2 img {
   width: 100%;
   height: 100%;
@@ -273,7 +292,7 @@ input[type="submit"] {
 .right-bottom {
   display: flex;
   flex-direction: column;
-  margin-top: 175px;
+  margin-top: 167px;
 }
 
 .img3 {
@@ -300,19 +319,40 @@ input[type="submit"] {
   font-size: 15px;
   line-height: 22px;
 }
+
 .submit-container2 {
   gap: 12px;
   width: 100%;
   display: flex;
 }
-.submit3 {
+
+.submit3 input[type="submit"] {
+  width: 100%;
+  height: 100%;
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+
+}
+.submit3  {
   width: 303px;
   height: 52px;
-}
-
+} 
 .submit4 {
     width: 303px;
     height: 52px;
+}
+.submit4  input[type="submit"]{
+  width: 100%;
+  height: 100%;
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+
 }
 .img4 {
   width: 626px;
@@ -320,3 +360,366 @@ input[type="submit"] {
 }
 
 .img4 img {width: 100%;height: 100%;margin-top: 87px;}
+
+.about-container {
+  width: 1920px;
+  height: 1740px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 58px;
+}
+.about {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #efefef;
+  justify-content: space-around;
+}
+.about-left-top {
+  width: 463px;
+  height: 127px;
+  margin-top: 62px;
+}
+.parahgraf {
+  width: 788px;
+  height: 752px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 53px;
+}
+.aboutme {
+  width: 463px;
+  height: 127px;
+  /* left: 162px; */
+  /* top: 62px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 125px;
+}
+.myself {
+  width: 463px;
+  height: 50px;
+  left: 164px;
+  top: 189px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 46px;
+}
+.about-left-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 53px;
+}
+.tools {
+  width: 463px;
+  height: 46px;
+  left: 164px;
+  top: 1097px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 46px;
+}
+.tools-container {
+  display: flex;
+  gap: 151px;
+}
+.Creative {
+  width: 170px;
+  height: 35px;
+  
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 34px;
+}
+
+.development {
+  width: 170px;
+  height: 35px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 34px;
+}
+.tabels {
+  display: flex;
+  margin-top: 13px;
+}
+.column1 {
+  /* position: absolute; */
+  width: 292px;
+  height: 412px;
+  /* left: 169px; */
+  /* top: 1225px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+/* or 200% */
+}
+
+.column2 {
+  /* position: absolute; */
+  width: 137px;
+  height: 412px;
+  /* left: 490px; */
+  /* top: 1225px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+/* or 200% */
+  margin-left: 29px;
+}
+
+.column3 {
+  width: 137px;
+  height: 412px;
+  /* left: 647px; */
+  /* top: 1225px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+/* or 200% */
+  margin-left: 20px;
+}
+
+.column4 {
+  width: 212px;
+  height: 412px;
+  left: 813px;
+  top: 1225px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+/* or 200% */
+  margin-left: 29px;
+}
+.about-right {
+  display: flex;
+  flex-direction: column;
+}
+.center {
+  width: 626px;
+  height: 680px;
+  margin-top: 250px;
+}
+
+.center img {
+    width: 100%;
+    height: 100%;
+}
+
+.par {
+    width: 626px;
+    height: 324px;
+    margin-top: 115px;
+    /* left: 1132px; */
+    /* top: 1087px; */
+  }
+
+  .–.Mark.Twain {
+    display: flex;
+    justify-content: end;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+   
+}
+.right-bottom2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50;
+}
+
+.contact-container {
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 78px;
+
+
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+}
+.contact-left {
+  display: flex;
+  /* margin-left: 162px; */
+  flex-direction: column;
+}
+.contact-text {
+  width: 463px;
+  height: 127px;
+  /* left: 162px; */
+  /* margin-left: 162px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 125px;
+  margin-top: 62px;
+}
+.text {
+  width: 1157px;
+  height: 50px;
+  /* left: 164px; */
+  /* top: 189px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 46px;
+}
+.name {
+  width: 64px;
+  height: 35px;
+  /* left: 164px; */
+  /* top: 293px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 89px;
+}
+.name1 {
+  width: 787px;
+  height: 48px;
+}
+.name input[type="text"] {
+  width: 787px;
+  height: 48px;
+}
+.Email {
+  width: 60px;
+  height: 35px;
+  /* left: 164px; */
+  /* top: 399px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 50px;
+}
+.subject {
+  width: 82px;
+  height: 35px;
+  /* left: 164px; */
+  /* top: 505px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 50px;
+}
+.message {
+  width: 82px;
+  height: 35px;
+  /* left: 164px; */
+  /* top: 505px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 50px;
+}
+input[type="email"] {
+  width: 787px;
+  height: 48px;
+}
+
+input[type="text1"] {
+  width: 787px;
+  height: 221px;
+}
+
+.send {
+  width: 160px;
+  height: 35px;
+}
+input[type="text"] {
+  width: 787px;
+  height: 48px;
+}
+.contact-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.send input[type="submit"] {
+  width: 100%;
+  height: 100%;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 250px;
+  /* display: flex; */
+  margin-left: 628;
+}
+.footer-container {
+  width: 1920px;
+  height: 222px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icons2 {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-text {
+  width: 100%;
+  height: 100%;
+  /* left: 162px; */
+  /* top: 92px; */
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #EFEFEF;
+}
